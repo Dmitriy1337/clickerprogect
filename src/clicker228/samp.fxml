@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="612.0" prefWidth="414.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="clicker228.Controller">
+   <children>
+      <ImageView fitHeight="629.0" fitWidth="565.0" nodeOrientation="INHERIT" pickOnBounds="true">
+         <image>
+            <Image url="@../pct/bg.jpg" />
+         </image>
+      </ImageView>
+      <Label id="lbl2" fx:id="lbl2" layoutX="56.0" layoutY="217.0" prefHeight="32.0" prefWidth="151.0" text="DogeCoin Invest. Cost -40 " />
+      <ImageView cache="true" fitHeight="197.0" fitWidth="186.0" layoutX="185.0" layoutY="270.0" preserveRatio="true">
+         <image>
+            <Image url="@../pct/Doge-head.png" />
+         </image>
+      </ImageView>
+      <ImageView id="iv1" fitHeight="200.0" fitWidth="190.0" layoutX="185.0" layoutY="270.0" opacity="0.0">
+         <image>
+            <Image url="@../pct/dogeclicked.png" />
+         </image>
+      </ImageView>
+      <Button focusTraversable="false" layoutX="6.0" mnemonicParsing="false" onAction="#enter" opacity="0.0" prefHeight="629.0" prefWidth="554.0" />
+      <Label id="lbl3" fx:id="lbl3" layoutX="283.0" layoutY="534.0" prefHeight="73.0" prefWidth="253.0" text="SWEG POINTS ">
+         <textFill>
+            <LinearGradient endX="0.26190476190476186" endY="0.8714285714285714" startY="0.8476190476190477">
+               <stops>
+                  <Stop color="#2d6144" />
+                  <Stop color="#f5260f" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Impact" size="36.0" />
+         </font></Label>
+      <Label id="lbl" fx:id="lbl" layoutX="68.0" layoutY="28.0" prefHeight="65.0" prefWidth="402.0" textAlignment="JUSTIFY" AnchorPane.leftAnchor="68.0" AnchorPane.rightAnchor="95.0" AnchorPane.topAnchor="28.0">
+         <font>
+            <Font name="Impact" size="48.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#ff0b0b" />
+                  <Stop color="#eeff00" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <effect>
+            <Lighting bumpInput="$null" diffuseConstant="1.95" light="$null" specularConstant="0.0" specularExponent="0.0" surfaceScale="10.0" />
+         </effect></Label>
+      <ImageView fitHeight="65.0" fitWidth="64.0" layoutX="59.0" layoutY="28.0">
+         <image>
+            <Image url="@../pct/dogecoinz.png" />
+         </image>
+      </ImageView>
+      <HBox layoutX="57.0" layoutY="114.0" spacing="30.0">
+         <children>
+            <Button layoutX="56.0" layoutY="114.0" mnemonicParsing="false" onAction="#enter2" prefHeight="93.0" prefWidth="135.0">
+               <graphic>
+                  <ImageView fitHeight="93.0" fitWidth="135.0" smooth="false">
+                     <image>
+                        <Image url="@../pct/b1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button layoutX="223.0" layoutY="114.0" mnemonicParsing="false" prefHeight="93.0" prefWidth="135.0" text="Button" />
+            <Button layoutX="384.0" layoutY="114.0" mnemonicParsing="false" prefHeight="93.0" prefWidth="135.0" text="Button" />
+         </children>
+      </HBox>
+      <Label layoutX="56.0" layoutY="234.0" prefHeight="32.0" prefWidth="122.0" text="  Coinz x2 Cost x2 too! " />
+   </children>
+</AnchorPane>
